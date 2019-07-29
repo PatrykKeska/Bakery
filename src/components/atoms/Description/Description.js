@@ -1,20 +1,15 @@
-import styled,{css} from 'styled-components'; 
+import styled from 'styled-components'; 
 
 
 
 
 const Description = styled.p `
-font-size : ${({theme})=> theme.fontSize.DesktopDescription };
-color : white;
-background-color: black; 
+font-size : .8em;
+color : white; 
 text-align : center;
+position : relative; 
+z-index : 2; 
 
-${({mobile})=>  
-
-mobile && css `
-font-size : ${({theme})=> theme.fontSize.MobileDescription };
-padding : 20px 10px; 
-`}
 `
 
 

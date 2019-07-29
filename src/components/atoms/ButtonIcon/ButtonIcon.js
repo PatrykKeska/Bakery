@@ -29,13 +29,16 @@ width : 280px;
 
 ${({facebook})=>
 facebook && css `
-background-color : ${({theme})=> theme.colors.blue}
+background-color : ${({theme})=> theme.colors.blue};
+padding-left :30px; 
 
 `
 }
 
 ${({location })=> location && css `
-background-color : ${({theme})=> theme.colors.pink}
+background-color : ${({theme})=> theme.colors.pink};
+background-position :15%;
+
 
 `
 }

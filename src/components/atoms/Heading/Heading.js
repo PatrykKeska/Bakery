@@ -1,22 +1,22 @@
-import styled,{css} from 'styled-components'; 
+import styled from 'styled-components'; 
 
 
 
 const Heading = styled.h1`
-font-size : ${({theme})=> theme.fontSize.DesktopTittle }; 
 background-color : ${({theme})=> theme.colors.black };
+ font-size : 1em;
+ width : 100%;  
 color : white; 
-text-align : center; 
+text-align : center;  
+padding : 10px;
+border-radius : 5px; 
 
-
-${({mobile})=> 
-mobile && css `
-font-size : ${({theme})=> theme.fontSize.MobileTittle }; 
-padding : 20px 10px; 
-`
+@media ( min-width : 640px) and (orientation:landscape) { 
+    padding : 30px 10px; 
 }
+ `
 
-`
+
 
 
 export default Heading ; 

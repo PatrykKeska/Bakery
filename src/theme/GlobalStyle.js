@@ -11,13 +11,17 @@ const GlobalStyle = createGlobalStyle`
 
 }
 
-html{ 
+/* html{ 
     font-size : 62.5% ; 
-}
+} */
+
+html { font-size: calc(1em + 1vw) }
 
 body { 
     font-family: 'Courgette', cursive, sans-serif; 
     font-size : 1.6rem; 
+    margin : 0 auto; 
+    overflow-x : hidden;
     
 }
 `;
