@@ -3,8 +3,10 @@ import { ThemeProvider } from 'styled-components';
 import GlobalStyle from '../theme/GlobalStyle';
 import {theme} from '../theme/MainTheme'; 
 
+
 const MainTemplate = ({ children }) => (
   <div>
+  
     <GlobalStyle />
     <ThemeProvider theme={theme}>{children}</ThemeProvider>
   </div>
