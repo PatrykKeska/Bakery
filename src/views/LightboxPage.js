@@ -22,6 +22,12 @@ import img15 from '../assets/Gallery/img15.jpg'
 import img16 from '../assets/Gallery/img16.jpg'
 import img17 from '../assets/Gallery/img17.jpg'
 import img18 from '../assets/Gallery/img18.jpg'
+import img19 from '../assets/Gallery/img19.jpg'
+import img20 from '../assets/Gallery/img20.jpg'
+import img21 from '../assets/Gallery/img21.jpg'
+import img22 from '../assets/Gallery/img22.jpg'
+import img23 from '../assets/Gallery/img23.jpg'
+import img24 from '../assets/Gallery/img24.jpg'
 
 import img1s from '../assets/Gallery/img1s.jpg'
 import img2s from '../assets/Gallery/img2s.jpg'
@@ -41,6 +47,12 @@ import img15s from '../assets/Gallery/img15s.jpg'
 import img16s from '../assets/Gallery/img16s.jpg'
 import img17s from '../assets/Gallery/img17s.jpg'
 import img18s from '../assets/Gallery/img18s.jpg'
+import img19s from '../assets/Gallery/img19s.jpg'
+import img20s from '../assets/Gallery/img20s.jpg'
+import img21s from '../assets/Gallery/img21s.jpg'
+import img22s from '../assets/Gallery/img22s.jpg'
+import img23s from '../assets/Gallery/img23s.jpg'
+import img24s from '../assets/Gallery/img24s.jpg'
 
 
 
@@ -69,6 +81,12 @@ state = {
     img16,
     img17,
     img18,
+    img19,
+    img20,
+    img21,
+    img22,
+    img23,
+    img24,
   ], 
 
   small: [ 
@@ -90,6 +108,12 @@ state = {
     img16s,
     img17s,
     img18s,
+    img19s,
+    img20s,
+    img21s,
+    img22s,
+    img23s,
+    img24s,
   ]
 }
 
@@ -101,8 +125,8 @@ return small.map(imageSrc => {
   photoIndex++;
   const privateKey = photoIndex;
   return (
-    <MDBCol md="4" key={photoIndex}>
-      <figure>
+    <MDBCol md="3" key={photoIndex}>
+      <figure className='figure'>
         <img src={imageSrc} alt="Gallery" className="img-fluid" onClick={()=>
         this.setState({ photoIndex: privateKey, isOpen: true })
         }

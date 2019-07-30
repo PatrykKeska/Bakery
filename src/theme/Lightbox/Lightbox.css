@@ -409,3 +409,10 @@
   h2 { 
     font-family: 'Courgette', cursive, sans-serif; 
   }
+
+  .figure { 
+    max-width : 100%; 
+  }
+  div.col-md-4 { 
+    max-width : 100%; 
+  }
