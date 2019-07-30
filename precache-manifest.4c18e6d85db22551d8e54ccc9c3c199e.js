@@ -1,6 +1,6 @@
 self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
-    "revision": "82fb8b5fdf2b73ad64a44be6d367d7d5",
+    "revision": "5589f0946451a7b080af543b783eaa5d",
     "url": "/Bakery/index.html"
   },
   {
@@ -8,15 +8,15 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/Bakery/static/css/2.52ef8e36.chunk.css"
   },
   {
-    "revision": "2ae3c73bd5ed2a2d41b7",
-    "url": "/Bakery/static/css/main.83164030.chunk.css"
+    "revision": "1b2fb728425e9bc7bf8e",
+    "url": "/Bakery/static/css/main.ee16c037.chunk.css"
   },
   {
     "revision": "9111c8021d5ab1603212",
     "url": "/Bakery/static/js/2.ed6f896c.chunk.js"
   },
   {
-    "revision": "2ae3c73bd5ed2a2d41b7",
+    "revision": "1b2fb728425e9bc7bf8e",
     "url": "/Bakery/static/js/main.14e1d5a1.chunk.js"
   },
   {
