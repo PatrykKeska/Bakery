@@ -25,8 +25,7 @@ setki zadowolonych klientów oraz
 dziesiątki udanych imprez. 
 U nas masz gwarancję najsmaczniejszych 
 wypieków oraz pewność atrakcyjnych cen.
-Z naszej strony zapewniamy pełen profesjonalizm, oraz pomoc 
-wyborze odpowiednich ciast do Państwa preferencji. Zapraszamy!
+Z naszej strony zapewniamy pełen profesjonalizm, oraz pomoc w wyborze odpowiednich ciast do Państwa preferencji. Zapraszamy!
   
 
 </Description>
