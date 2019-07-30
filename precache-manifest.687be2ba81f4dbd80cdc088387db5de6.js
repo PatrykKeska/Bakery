@@ -1,6 +1,6 @@
 self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
-    "revision": "fe147dded25da51095ff700e88990d4d",
+    "revision": "b328f5f4c3eb5107e08f87d00bad3c4c",
     "url": "/Bakery/index.html"
   },
   {
@@ -8,7 +8,7 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/Bakery/static/css/2.52ef8e36.chunk.css"
   },
   {
-    "revision": "a7065b13c68c1e4eb11d",
+    "revision": "6af6365d5896c9674848",
     "url": "/Bakery/static/css/main.a1d8fb9d.chunk.css"
   },
   {
@@ -16,8 +16,8 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/Bakery/static/js/2.ed6f896c.chunk.js"
   },
   {
-    "revision": "a7065b13c68c1e4eb11d",
-    "url": "/Bakery/static/js/main.1b343210.chunk.js"
+    "revision": "6af6365d5896c9674848",
+    "url": "/Bakery/static/js/main.a2b41c66.chunk.js"
   },
   {
     "revision": "adf9bd0edf2925114808",
@@ -116,8 +116,8 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/Bakery/static/media/img19.69007881.jpg"
   },
   {
-    "revision": "9c45a31a819affa11f01aae92389a433",
-    "url": "/Bakery/static/media/img19s.9c45a31a.jpg"
+    "revision": "0de295cad0ecfcd3bc99fa6b105c888f",
+    "url": "/Bakery/static/media/img19s.0de295ca.jpg"
   },
   {
     "revision": "72c144fd3aaa015de4c0a09872c731d5",
@@ -132,40 +132,40 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/Bakery/static/media/img20.be4807ff.jpg"
   },
   {
-    "revision": "d6f8a052e7793b8a69eb8af8557cc77c",
-    "url": "/Bakery/static/media/img20s.d6f8a052.jpg"
+    "revision": "917eea9f73dd03785a9a2eed87ed725b",
+    "url": "/Bakery/static/media/img20s.917eea9f.jpg"
   },
   {
     "revision": "9fc8182ef7ee4a6e5fdcb2190de5c943",
     "url": "/Bakery/static/media/img21.9fc8182e.jpg"
   },
   {
-    "revision": "c5317cdb46faf9b0d0432ba29448a748",
-    "url": "/Bakery/static/media/img21s.c5317cdb.jpg"
+    "revision": "cfae8c4579c1e2ebd525ca6f27a7fce4",
+    "url": "/Bakery/static/media/img21s.cfae8c45.jpg"
   },
   {
     "revision": "4e72879d0ac5ac4c8a02cbedce11f0a6",
     "url": "/Bakery/static/media/img22.4e72879d.jpg"
   },
   {
-    "revision": "2420c01ce5b8a4e360ea7c81d7f5c64a",
-    "url": "/Bakery/static/media/img22s.2420c01c.jpg"
+    "revision": "5711411449be0ecd0c6f9bc1f37b623e",
+    "url": "/Bakery/static/media/img22s.57114114.jpg"
   },
   {
     "revision": "d71d6cdebd980e137e070e398a790e15",
     "url": "/Bakery/static/media/img23.d71d6cde.jpg"
   },
   {
-    "revision": "ac8940db740e6af5d3da085e5fff8c79",
-    "url": "/Bakery/static/media/img23s.ac8940db.jpg"
+    "revision": "0baf123a912517fb9e87520d10d307d0",
+    "url": "/Bakery/static/media/img23s.0baf123a.jpg"
   },
   {
     "revision": "becd90c1e723824132693de0efb4e9a9",
     "url": "/Bakery/static/media/img24.becd90c1.jpg"
   },
   {
-    "revision": "8635a2bf08390d4f2e2fdcdd32d1a82c",
-    "url": "/Bakery/static/media/img24s.8635a2bf.jpg"
+    "revision": "4052e3947452e1be1b0069646da1af28",
+    "url": "/Bakery/static/media/img24s.4052e394.jpg"
   },
   {
     "revision": "556115ec97a87834e8c67a5e815870c7",
