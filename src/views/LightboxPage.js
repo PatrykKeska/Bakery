@@ -23,6 +23,25 @@ import img16 from '../assets/Gallery/img16.jpg'
 import img17 from '../assets/Gallery/img17.jpg'
 import img18 from '../assets/Gallery/img18.jpg'
 
+import img1s from '../assets/Gallery/img1s.jpg'
+import img2s from '../assets/Gallery/img2s.jpg'
+import img3s from '../assets/Gallery/img3s.jpg'
+import img4s from '../assets/Gallery/img4s.jpg'
+import img5s from '../assets/Gallery/img5s.jpg'
+import img6s from '../assets/Gallery/img6s.jpg'
+import img7s from '../assets/Gallery/img7s.jpg'
+import img8s from '../assets/Gallery/img8s.jpg'
+import img9s from '../assets/Gallery/img9s.jpg'
+import img10s from '../assets/Gallery/img10s.jpg'
+import img11s from '../assets/Gallery/img11s.jpg'
+import img12s from '../assets/Gallery/img12s.jpg'
+import img13s from '../assets/Gallery/img13s.jpg'
+import img14s from '../assets/Gallery/img14s.jpg'
+import img15s from '../assets/Gallery/img15s.jpg'
+import img16s from '../assets/Gallery/img16s.jpg'
+import img17s from '../assets/Gallery/img17s.jpg'
+import img18s from '../assets/Gallery/img18s.jpg'
+
 
 
 
@@ -50,14 +69,35 @@ state = {
     img16,
     img17,
     img18,
+  ], 
+
+  small: [ 
+    img1s,
+    img2s,
+    img3s,
+    img4s,
+    img5s,
+    img6s,
+    img7s,
+    img8s,
+    img9s,
+    img10s,
+    img11s,
+    img12s,
+    img13s,
+    img14s,
+    img15s,
+    img16s,
+    img17s,
+    img18s,
   ]
 }
 
 renderImages = () => {
   let photoIndex = -1;
-  const { images } = this.state;
+  const {small } = this.state;
 
-return images.map(imageSrc => {
+return small.map(imageSrc => {
   photoIndex++;
   const privateKey = photoIndex;
   return (
