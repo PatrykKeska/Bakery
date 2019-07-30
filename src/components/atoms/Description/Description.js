@@ -8,7 +8,7 @@ font-size : .8em;
 color : white; 
 text-align : center;
 position : relative; 
-z-index : 2; 
+z-index : 3; 
 
 `
 

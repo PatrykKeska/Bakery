@@ -14,8 +14,21 @@ const GlobalStyle = createGlobalStyle`
 /* html{ 
     font-size : 62.5% ; 
 } */
+body::-webkit-scrollbar {
+    width: 1px;
+}
+ 
+ 
+body::-webkit-scrollbar-thumb {
+  background-color: darkgrey;
+  outline: 1px solid slategrey;
+}
 
-html { font-size: calc(1em + 1vw) }
+
+html { font-size: calc(1em + 1vw);
+  font-family: 'Courgette', cursive, sans-serif; 
+}
+
 
 body { 
     font-family: 'Courgette', cursive, sans-serif; 

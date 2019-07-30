@@ -22,6 +22,13 @@ background-image : url(${({icon})=>icon});
 background-repeat : no-repeat;  
 background-size : 7%; 
 background-position :5%;
+transition : transform .3s ease-in-out; 
+will-change : transform;
+
+:hover { 
+    transform : scale(1.1);
+    cursor: pointer;
+}
 
 @media(orientation : landscape) and (min-width :600px ){ 
     font-size : .35em; 

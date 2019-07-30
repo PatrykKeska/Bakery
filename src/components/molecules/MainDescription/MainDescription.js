@@ -12,7 +12,7 @@ margin-top : 5vh;
 `
 
 const MainDescription = ()=> ( 
-    <Section dark url={tradiction}>
+    <Section blur dark url={tradiction}>
     <StyledInnerWrapper>
     <Description>
     Rodzinna cukiernia Kwiatkowskiej z córkami.

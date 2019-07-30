@@ -18,7 +18,7 @@ height : 100vh;
 
 const MainHeader = ()=> ( 
 
-<Section url={mainBackground}>
+<Section blur url={mainBackground}>
 <StyledHeader>
  <Heading>Cukiernia K-SMAK <br/>
  Tradycyjne Wypieki z Pasją
