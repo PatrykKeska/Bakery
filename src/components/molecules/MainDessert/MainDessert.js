@@ -20,11 +20,14 @@ const MainDessert = ()=>(
 <Section dark url={dessert}> 
 <StyledInnerWrapper>
 <Description>
-Stoi za nami wieloletnie doświadczenie,  
+Za nami wieloletnie doświadczenie,  
 setki zadowolonych klientów oraz 
 dziesiątki udanych imprez. 
 U nas masz gwarancję najsmaczniejszych 
-wypieków oraz atrakcyjnych cen.
+wypieków oraz pewność atrakcyjnych cen.
+Z naszej strony zapewniamy pełen profesjonalizm, oraz pomoc 
+wyborze odpowiednich ciast do Państwa preferencji. 
+Zapraszamy !
   
 
 </Description>

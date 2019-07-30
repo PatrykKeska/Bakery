@@ -72,9 +72,6 @@ state = {
     img7,
     img8,
     img9,
-    img10,
-    img11,
-    img12,
     img13,
     img14,
     img15,
@@ -87,6 +84,9 @@ state = {
     img22,
     img23,
     img24,
+    img10,
+    img11,
+    img12,
   ], 
 
   small: [ 
@@ -99,9 +99,6 @@ state = {
     img7s,
     img8s,
     img9s,
-    img10s,
-    img11s,
-    img12s,
     img13s,
     img14s,
     img15s,
@@ -114,6 +111,9 @@ state = {
     img22s,
     img23s,
     img24s,
+    img10s,
+    img11s,
+    img12s,
   ]
 }
 
