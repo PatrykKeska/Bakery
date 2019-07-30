@@ -12,7 +12,7 @@ position : fixed;
 top : 0 ; 
 left : 0; 
 z-index : 5;
-animation : appear .2s linear both; 
+animation : appear .3s linear both; 
 
 
 @keyframes appear {

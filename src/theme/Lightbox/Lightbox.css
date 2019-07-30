@@ -416,3 +416,7 @@
   div.col-md-4 { 
     max-width : 100%; 
   }
+
+ div.row{ 
+    margin : 0 auto;
+  }
