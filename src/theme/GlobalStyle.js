@@ -34,6 +34,9 @@ body {
     font-family: 'Courgette', cursive, sans-serif; 
     font-size : 1.6rem; 
     margin : 0 auto; 
+    display : flex; 
+    justify-content : center; 
+    align-items : center;
     overflow-x : hidden;
     
 }
