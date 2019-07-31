@@ -1,6 +1,6 @@
 {
   "files": {
-    "main.css": "/Bakery/static/css/main.4f910892.chunk.css",
+    "main.css": "/Bakery/static/css/main.8c3f7c87.chunk.css",
     "main.js": "/Bakery/static/js/main.f1bae21b.chunk.js",
     "main.js.map": "/Bakery/static/js/main.f1bae21b.chunk.js.map",
     "runtime~main.js": "/Bakery/static/js/runtime~main.ebfce495.js",
@@ -9,10 +9,10 @@
     "static/js/2.ed6f896c.chunk.js": "/Bakery/static/js/2.ed6f896c.chunk.js",
     "static/js/2.ed6f896c.chunk.js.map": "/Bakery/static/js/2.ed6f896c.chunk.js.map",
     "index.html": "/Bakery/index.html",
-    "precache-manifest.76da2480f748af789226dfccea59975d.js": "/Bakery/precache-manifest.76da2480f748af789226dfccea59975d.js",
+    "precache-manifest.caf5b0f98765861b563659201ba2e2cb.js": "/Bakery/precache-manifest.caf5b0f98765861b563659201ba2e2cb.js",
     "service-worker.js": "/Bakery/service-worker.js",
     "static/css/2.8b9ef1a7.chunk.css.map": "/Bakery/static/css/2.8b9ef1a7.chunk.css.map",
-    "static/css/main.4f910892.chunk.css.map": "/Bakery/static/css/main.4f910892.chunk.css.map",
+    "static/css/main.8c3f7c87.chunk.css.map": "/Bakery/static/css/main.8c3f7c87.chunk.css.map",
     "static/media/contact.jpg": "/Bakery/static/media/contact.6574be93.jpg",
     "static/media/dessert.jpg": "/Bakery/static/media/dessert.3cb8db41.jpg",
     "static/media/events.jpg": "/Bakery/static/media/events.a472dff0.jpg",
