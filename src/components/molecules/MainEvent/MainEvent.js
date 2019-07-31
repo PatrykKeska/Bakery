@@ -16,7 +16,7 @@ position : relative;
 const MainEvent = ()=> ( 
 <Section blur dark url={events}>
     <StyledInnerWrapper>
-<Description>Realizujemy Zamówienia Na Imprezy Okolicznośćiowe</Description>
+<Description>Realizujemy Zamówienia Na Imprezy Okolicznościowe</Description>
 <List/>
 </StyledInnerWrapper>
 

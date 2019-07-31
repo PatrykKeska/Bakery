@@ -70,8 +70,8 @@ const ContactPage = ()=> (
 <ButtonIcon href="tel:691974594" icon={phone} >Marzena 691 974 594</ButtonIcon>
 <ButtonIcon href="tel:691704339" icon={phone} >Teresa 691 704 339</ButtonIcon>
 </PhoneContainer>
-<ButtonIcon target="_blank" href='https://www.facebook.com/CukierniaKSMAK/' facebook icon={facebook} >Odwiedż nasz Facebook</ButtonIcon>
-<ButtonIcon target="_blank" href='https://www.google.com/maps/place/Cukiernia+K-SMAK+S%C5%82opnice/@49.7124112,20.3506999,15z/data=!4m5!3m4!1s0x0:0xf719337a5ce31954!8m2!3d49.7124112!4d20.3506999' location icon={location} >Zlokalizuj Nas !</ButtonIcon>
+<ButtonIcon target="_blank" href='https://www.facebook.com/CukierniaKSMAK/' facebook icon={facebook} >Odwiedź nasz Facebook</ButtonIcon>
+<ButtonIcon target="_blank" href='https://www.google.com/maps/place/Cukiernia+K-SMAK+S%C5%82opnice/@49.7124112,20.3506999,15z/data=!4m5!3m4!1s0x0:0xf719337a5ce31954!8m2!3d49.7124112!4d20.3506999' location icon={location} >Zlokalizuj Nas!</ButtonIcon>
 </InnerGrid>
 </Section>
 

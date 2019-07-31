@@ -142,7 +142,7 @@ const { photoIndex, isOpen, images } = this.state;
   return (
 
     <MDBContainer className="mt-5">
-    <Nav black/>
+    <Nav/>
         <h2 className="font-weight-bold my-5 text-center">Nasze Wypieki</h2>
         <div className="mdb-lightbox">
           <MDBRow>
