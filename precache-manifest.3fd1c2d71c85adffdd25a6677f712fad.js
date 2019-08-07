@@ -1,23 +1,23 @@
 self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
-    "revision": "1b0c512b89ec87e9c5726f85b62367d7",
+    "revision": "5cd62a9e18f60cde844a1a895826de1b",
     "url": "/Bakery/index.html"
   },
   {
-    "revision": "46fafb6c64c82b8c9bae",
+    "revision": "876839be52aedcd9a041",
     "url": "/Bakery/static/css/2.8b9ef1a7.chunk.css"
   },
   {
-    "revision": "4b52a1a09b5d84547a8c",
-    "url": "/Bakery/static/css/main.8c3f7c87.chunk.css"
+    "revision": "8618cbe8a8125ef60616",
+    "url": "/Bakery/static/css/main.3df64821.chunk.css"
   },
   {
-    "revision": "46fafb6c64c82b8c9bae",
-    "url": "/Bakery/static/js/2.ed6f896c.chunk.js"
+    "revision": "876839be52aedcd9a041",
+    "url": "/Bakery/static/js/2.e05a944c.chunk.js"
   },
   {
-    "revision": "4b52a1a09b5d84547a8c",
-    "url": "/Bakery/static/js/main.58fceb5a.chunk.js"
+    "revision": "8618cbe8a8125ef60616",
+    "url": "/Bakery/static/js/main.931f6f0e.chunk.js"
   },
   {
     "revision": "adf9bd0edf2925114808",
@@ -166,6 +166,14 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
     "revision": "4052e3947452e1be1b0069646da1af28",
     "url": "/Bakery/static/media/img24s.4052e394.jpg"
+  },
+  {
+    "revision": "3d8eaacd771ba283fd90d2eb44b7dc6b",
+    "url": "/Bakery/static/media/img25.3d8eaacd.jpg"
+  },
+  {
+    "revision": "1fdfe73705b00c813273c1854d486561",
+    "url": "/Bakery/static/media/img25s.1fdfe737.jpg"
   },
   {
     "revision": "556115ec97a87834e8c67a5e815870c7",
