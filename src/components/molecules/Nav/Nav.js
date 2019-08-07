@@ -12,13 +12,13 @@ position : fixed;
 top : 0 ; 
 left : 0; 
 z-index : 5;
-animation : appear .3s linear both; 
+animation : appearNav .3s linear both; 
 
 
-@keyframes appear {
+@keyframes appearNav {
     0%{ 
         transform : translate(100vw, 0 );
-        opacity : 0;
+ 
     }
 
     100%{ 
@@ -118,15 +118,15 @@ will-change : transform ;
 
 
 .spc1{ 
-    animation : appear .3s .2s  ease-in-out both, rotatePlus .2s .4s  ease-in-out both
+    animation : appearSpan .3s .2s  ease-in-out both, rotatePlus .2s .4s  ease-in-out both
 }
 .spc2{ 
-    animation : appear .3s .2s  ease-in-out both, rotateMinus .2s .4s  ease-in-out both
+    animation : appearSpan .3s .2s  ease-in-out both, rotateMinus .2s .4s  ease-in-out both
 }
 
 
 
-@keyframes appear {
+@keyframes appearSpan {
     0%{ 
         opacity :0 ; 
 

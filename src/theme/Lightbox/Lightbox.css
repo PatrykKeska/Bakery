@@ -457,7 +457,21 @@
   }
 
   .mt-5 { 
-    /* background-color:#12AAED; */
+    animation : appearLightbox .3s linear both; 
+    will-change:  transform ;
   }
 
   html{ background-color:rgb(18, 171, 237);}
+
+
+  @keyframes appearLightbox { 
+
+    0%{ 
+    transform: scale(0);
+    opacity : 0 ;
+    }
+
+    100%{ 
+
+    }
+  }
