@@ -32,6 +32,9 @@ import img25 from "../assets/Gallery/img25.jpg";
 import img26 from "../assets/Gallery/img26.jpg";
 import img27 from "../assets/Gallery/img27.jpg";
 import img28 from "../assets/Gallery/img28.jpg";
+import img29 from "../assets/Gallery/img29.jpg";
+import img30 from "../assets/Gallery/img30.jpg";
+import img31 from "../assets/Gallery/img31.jpg";
 
 import img1s from "../assets/Gallery/img1s.jpg";
 import img2s from "../assets/Gallery/img2s.jpg";
@@ -61,6 +64,9 @@ import img25s from "../assets/Gallery/img25s.jpg";
 import img26s from "../assets/Gallery/img26s.jpg";
 import img27s from "../assets/Gallery/img27s.jpg";
 import img28s from "../assets/Gallery/img28s.jpg";
+import img29s from "../assets/Gallery/img29s.jpg";
+import img30s from "../assets/Gallery/img30s.jpg";
+import img31s from "../assets/Gallery/img31s.jpg";
 
 class LightboxPage extends React.Component {
   state = {
@@ -94,7 +100,10 @@ class LightboxPage extends React.Component {
       img25,
       img26,
       img27,
-      img28
+      img28,
+      img29,
+      img30,
+      img31
     ],
 
     small: [
@@ -125,7 +134,10 @@ class LightboxPage extends React.Component {
       img25s,
       img26s,
       img27s,
-      img28s
+      img28s,
+      img29s,
+      img30s,
+      img31s
     ]
   };
 
