@@ -1,4 +1,5 @@
 import React from "react";
+import back from "../assets/icons/back.svg";
 import { MDBContainer, MDBRow, MDBCol } from "mdbreact";
 import Lightbox from "react-image-lightbox";
 import "../theme/Lightbox/Lightbox.css";
@@ -67,10 +68,12 @@ import img28s from "../assets/Gallery/img28s.jpg";
 import img29s from "../assets/Gallery/img29s.jpg";
 import img30s from "../assets/Gallery/img30s.jpg";
 import img31s from "../assets/Gallery/img31s.jpg";
+import ButtonBack from "../components/atoms/ButtonBack/ButtonBack";
 
 class LightboxPage extends React.Component {
   state = {
     photoIndex: 0,
+    back: false,
     isOpen: false,
     images: [
       img1,
@@ -144,7 +147,6 @@ class LightboxPage extends React.Component {
   renderImages = () => {
     let photoIndex = -1;
     const { small } = this.state;
-
     return small.map(imageSrc => {
       photoIndex++;
       const privateKey = photoIndex;
@@ -164,6 +166,28 @@ class LightboxPage extends React.Component {
       );
     });
   };
+
+  getWindowHeight = () => {
+    console.log(window.pageYOffset);
+    if (window.pageYOffset > 700) {
+      this.setState({
+        back: true
+      });
+    } else {
+      this.setState({
+        back: false
+      });
+    }
+  };
+
+  handleScrollTop = () =>
+    window.scrollTo({
+      top: 0,
+      behavior: "smooth"
+    });
+  componentDidMount() {
+    window.addEventListener("scroll", this.getWindowHeight);
+  }
 
   render() {
     const { photoIndex, isOpen, images } = this.state;
@@ -195,6 +219,9 @@ class LightboxPage extends React.Component {
             />
           )}
         </MDBContainer>
+        {this.state.back ? (
+          <ButtonBack onClick={this.handleScrollTop} icon={back} />
+        ) : null}
       </>
     );
   }
