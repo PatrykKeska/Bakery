@@ -168,7 +168,6 @@ class LightboxPage extends React.Component {
   };
 
   getWindowHeight = () => {
-    console.log(window.pageYOffset);
     if (window.pageYOffset > 700) {
       this.setState({
         back: true

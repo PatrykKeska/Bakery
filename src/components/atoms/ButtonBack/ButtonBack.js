@@ -4,7 +4,6 @@ const ButtonBack = styled.button`
   position: fixed;
   z-index: 4;
   text-align: center;
-  background-color: ${({ theme }) => theme.colors.orange};
   font-size: 0.6em;
   width: 50px;
   height: 50px;
@@ -16,12 +15,16 @@ const ButtonBack = styled.button`
   background-size: 100%;
   transform: rotate(90deg);
   background-position: center;
-  transition: transform 0.3s ease-in-out;
+  transition: opacity 0.3s ease-in-out;
   will-change: transform;
   bottom: 10px;
   left: 45%;
   animation: buttonIncoming 0.2s linear;
   opacity: 0.8;
+
+  :hover {
+    opacity: 1;
+  }
 
   @keyframes buttonIncoming {
     0% {
